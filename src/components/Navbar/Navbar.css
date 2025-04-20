@@ -1,0 +1,90 @@
+.navbar-container {
+    height: 56px;
+    background: var(--flipkart-lightBlue);
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2; /* Ensures navbar stays on top of other content */
+    top: 0; /* Ensure navbar stays at the top */
+}
+
+.navbar {
+    max-width: 1248px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Use space-between to better distribute items */
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 20px; /* Reduced padding to avoid unnecessary whitespace */
+}
+
+.navbar-logo {
+    width: 80px;
+}
+
+.navbar-search {
+    display: flex;
+    justify-content: space-between;
+    max-width: 444px;
+    width: 100%; /* Take up the remaining space */
+    background-color: white;
+    border: 2px solid #ccc; /* Added border color for better visual appearance */
+}
+
+.searchbtn {
+    height: 36px;
+    width: 44px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding: 4px 12px 0 4px;
+    color: var(--flipkart-lightBlue);
+    cursor: pointer;
+}
+
+.navbar-searchbox {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.navbar-btn {
+    padding: 5px 20px; /* Reduced padding to keep button consistent */
+    height: 32px;
+    background-color: white;
+    color: var(--flipkart-lightBlue);
+    border: 1px solid #dbdbdb;
+    font-weight: 700;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.navbar-bcs {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.navbar-more {
+    font-size: 13px;
+    position: relative;
+}
+
+.moredown {
+    position: absolute;
+    top: 10%;
+    padding: 0 2px;
+}
+
+.navbar-cart {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.cart {
+    font-size: 15px;
+    padding: 0 5px;
+    color: white;
+}

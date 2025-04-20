@@ -1,0 +1,100 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginModal {
+    height: 500px;
+    width: 700px;
+    background: white;
+    z-index: 1001;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left {
+    width: 40%;
+    background: #2874f0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.left-container {
+    background: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png")
+      no-repeat;
+    background-position: center 85%;
+    height: 100%;
+  }
+
+.left-container .Login-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.left-container .Login-des {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.right {
+    width: 60%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    background: white;
+}
+
+.Login-input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.Login-btn {
+    background-color: #fb641b;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.Login-signup {
+    color: #2874f0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.termsandcon {
+    font-size: 12px;
+    color: gray;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: gray;
+}
