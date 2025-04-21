@@ -1,0 +1,141 @@
+.ProductDetailCard {
+    width: 100%;
+    min-height: 300px; /* Ensuring proper height */
+    display: flex;
+    padding: 16px; /* Increased padding for better spacing */
+    justify-content: space-between;
+    background-color: #fff; /* White background for clarity */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    gap: 16px;
+    margin-top: 2em;
+  }
+  
+  .ProductDetailCard-Img {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ProductDetailCard-Img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px; /* Rounded edges for images */
+  }
+  
+  .ProductDetailCard-details {
+    flex: 1;
+    padding: 16px 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Space between elements for readability */
+  }
+  
+  .ProductDetailCard-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  
+  .ratingAndreviews {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .stars {
+    background: #388e3c;
+    font-size: 14px;
+    padding: 6px 8px;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .ratings {
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .ProductDetailCard-Productdetails {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .ProductDetailCard-detail {
+    font-size: 14px;
+    color: #212121;
+    padding: 6px 0;
+    font-weight: 400;
+  }
+  
+  .ProductDetailCard-PriceandDelivery {
+    min-width: 220px;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  
+  .pricecontainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .ProductDetailCard-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #212121;
+    margin-right: 10px;
+  }
+  
+  .freedel {
+    font-size: 13px;
+    font-weight: 400;
+    color: #212121;
+  }
+  
+  .discount {
+    font-size: 13px;
+    font-weight: 400;
+    color: #388e3c;
+  }
+  
+  .ProductDetailCard-PriceandDelivery img {
+    width: auto;
+    height: 21px;
+  }
+  
+  @media (max-width: 768px) {
+    .ProductDetailCard {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .ProductDetailCard-Img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 16px;
+    }
+  
+    .ProductDetailCard-details {
+      padding: 10px 0;
+    }
+  
+    .ProductDetailCard-price {
+      font-size: 20px;
+    }
+  
+    .discount {
+      font-size: 12px;
+    }
+  }
+  
